@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
+
+body {
+  color: #223843;
+  font-family: 'Nunito';
+  font-weight: 200;
+  text-align: justify;
+  background-color: #fffcf8;
+}
+
+body h1 {
+  font-weight: 400;
+}
+
+body h2 {
+  color: #304C89;
+}
+
+a {
+  color: #C58882;
+}
+
+.card {
+  width: auto;
+  height: auto;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  border-radius: 5px;
+  margin: 40px 40px;
+  padding: 40px;
+  background-color: white;
+  font-size: 20px;
+}
+
+.container {
+  width: 500px;   /* Définit la largeur */
+  margin: 0 auto; /* Définit automatiquement les marges à gauche/droite */
+}
+
+.circle-image {
+  border-radius: 50%;
+  border: #C58882 2px solid;
+}
+
+.image-size {
+  height: auto;
+  width: auto;
+  max-width: 110px;
+  max-height: 110px;
+}
+
+.center-content {
+  text-align: center;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+ul i {
+  font-size: 60px;
+}
+
+
+@media (min-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 960px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
